@@ -1,9 +1,7 @@
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -14,8 +12,7 @@ SECRET_KEY = 'django-insecure-7&--0=g5vvs=i*c#^ofyhua!i6j68if2ftb0mi-abbp3#6&yo_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["specified.ml"]
-
+ALLOWED_HOSTS = ["specified.ml", "127.0.0.1"]
 
 # Application definition
 
@@ -62,7 +59,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ism.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -72,7 +68,6 @@ DATABASES = {
         'NAME': str(BASE_DIR / 'db.sqlite3'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -91,7 +86,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
@@ -135,6 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'alphlee67@gmail.com'
+EMAIL_HOST_USER = 'tadashi@gmail.com'
 EMAIL_HOST_PASSWORD = 'zjvhvbcdjvhjwoun'
 EMAIL_USE_TLS = True
