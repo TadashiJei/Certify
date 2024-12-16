@@ -1,6 +1,6 @@
-# Django Certificate Generator
+# Certify Certificate Generator
 
-Welcome to the Django Certificate Generator, an open-source project built using the Django web framework. This application is designed to be user-friendly and easy to use, allowing users to create customized certificates. It provides functionality to generate certificates in bulk and send them via email. This README file provides an overview of the project, detailed installation instructions, usage guidelines, and other relevant information.
+Welcome to the Certify Certificate Generator, an open-source project built using the Django web framework. This application is designed to be user-friendly and easy to use, allowing users to create customized certificates. It provides functionality to generate certificates in bulk and send them via email. This README file provides an overview of the project, detailed installation instructions, usage guidelines, and other relevant information.
 
 ## Features
 
